@@ -1,0 +1,13 @@
+{
+    "clangd.path": "/usr/bin/clangd",
+    "clangd.fallbackFlags": [
+        "-xc",
+        "-std=c11",   //C语言标准
+        // 第三方依赖的头文件目录
+        "-I/home/hao/linux/imx6ull/linux/temp/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/include",
+        "-I/home/hao/linux/imx6ull/linux/temp/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/arch/arm/include",
+        "-I/home/hao/linux/imx6ull/linux/temp/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/arch/arm/include/generated/",
+        "-I/usr/lib/gcc/x86_64-linux-gnu/7/include",
+        "-I${workspaceFolder}/**",
+      ],
+}
