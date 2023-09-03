@@ -13,7 +13,7 @@
 #include <linux/timer.h>
 #include <linux/irq.h>
 #include <linux/wait.h>
-#include <linux/poll.h>
+#include <linux/poll.h> 
 #include <linux/fs.h>
 #include <linux/fcntl.h>
 #include <linux/platform_device.h>
