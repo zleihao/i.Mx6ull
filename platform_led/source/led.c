@@ -1,4 +1,3 @@
-#include "linux/export.h"
 #include "linux/printk.h"
 #include "linux/spinlock.h"
 #include <asm-generic/errno-base.h>

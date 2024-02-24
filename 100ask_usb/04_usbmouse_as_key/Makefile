@@ -1,7 +1,7 @@
 KERNELDIR := /home/hao/linux/imx6ull/linux/temp/linux-imx-rel_imx_4.1.15_2.1.0_ga_100ask
 
 CURRENT_PATH := $(shell pwd)
-obj-m := led.o
+obj-m := usbmouse_as_key.o
 
 build: kernel_modules
 
