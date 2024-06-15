@@ -1,0 +1,26 @@
+{
+    "clangd.path": "/usr/bin/clangd",
+    "clangd.fallbackFlags": [
+        "-xc",
+        "-std=c11",   //C语言标准
+        "-D__KERNEL__",
+        "-DCONFIG_I2C",
+        // 第三方依赖的头文件目录
+        "-I/home/hao/linux/imx6ull/linux/temp/linux-imx-5.4.47/include",
+        "-I/home/hao/linux/imx6ull/linux/temp/linux-imx-5.4.47/include/**",
+        "-I/home/hao/linux/imx6ull/linux/temp/linux-imx-5.4.47/arch/arm/include",
+        "-I/home/hao/linux/imx6ull/linux/temp/linux-imx-5.4.47/arch/arm/include/generated/",
+        "/home/hao/linux/imx6ull/linux/temp/linux-imx-5.4.47/",
+        "-I/usr/lib/gcc/x86_64-linux-gnu/7/include",
+        "-I${workspaceFolder}/**",
+      ],
+      "files.readonlyInclude": {
+        "": true,
+        "**/linux-imx-5.4.47/**": true,
+        "/linux-imx-5.4.47/**": true
+      },
+      "files.readonlyExclude": {
+        "/home/hao/linux/imx6ull/linux/temp/linux-imx-5.4.47/arch/arm/boot/dts/imx6ull-alientek-emmc.dts": true,
+        "/home/hao/linux/imx6ull/linux_drivers/22_iic/ap3216c.c": true
+      },
+}
