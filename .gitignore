@@ -6,4 +6,5 @@
 *.mod.c
 .tmp_versions
 .cache
+*.mod
 
